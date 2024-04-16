@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+#brand-title {
+    font-size: 30px;
+    font-weight: bold;
+    background-size: cover;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header {
+   font-size:23px;
+   font-family:Arial;
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   
+   
+}
+nav span {
+
+margin-right: 20px;
+
+}
+.shortcut-buttons span {
+margin-right: 20px;
+}
+article {
+background-color: black;
+font-size: 18px;
+padding: 10px;
+color: white;
+
+text-align: center;
+}
+
+.bi-lightning-fill {
+color:gold;
+}
+footer
+{
+background-color: black;
+padding: 20px;
+color:white;
+display: grid;
+grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+}
+.footer-title {font-weight: bold;
+margin-bottom: 20px;
+font-family: Arial;
+
+}
+.footer-brand-title {
+font-size: 30px;
+
+font-family: Arial;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.footer-title~span {
+display: block;
+margin-bottom: 15px;
+font-family: Arial;
+}
+address span {
+display: block;
+margin-bottom: 15px;
+font-family: Arial;
+
+}
+.footer-brand-title~div span {
+margin-right: 10px;
+font-size: 20px;
+}
+
+main {
+display: grid;
+grid-template-columns: 4fr 4fr 4fr;
+grid-gap: 5px;
+margin-top: 10px;
+}
+.men, .women, .kids {
+height: 450px;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.title {
+font-size: 45px;
+color:white;
+text-shadow: 2px 2px 2px black;
+}
+button {
+width: 150px;
+font-size: 15px;
+}
+button a{
+    text-decoration: none;
+}
+button a:visited{
+    color: red;
+}
+button a:active{
+    color:grey;
+}
+.features {
+margin-top: 20px;
+padding: 20px;
+display: grid;
+grid-template-columns: 3fr 3fr 3fr 3fr;
+font-family: Arial;
+}
+.features .bi {
+color:red;
+}
+.features div {
+margin-bottom: 10px;
+}
+.feature-text {
+color:gray;
+}
+.site-main {
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.site-main-title {
+font-size: 40px;
+font-family: Arial;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 10px;
+color: red;
+}
+.site-main-subtitle {
+color:gray;
+}
+.site-main-text {
+font-family: Arial;
+width: 500px;
+margin-top: 20px;
+}
+
+
+

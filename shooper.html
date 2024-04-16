@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopper Template</title>
+<link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="effect.css">
+
+<style>.women {
+    background-image: url("image/wom.webp");
+     }
+    .men {
+    background-image:  url("image/men3.webp");
+    }
+    .kids {
+    background-image: url("image/a000.webp");
+    }</style>
+    <script>
+		 
+    let x=1;
+    function fun(){
+        let element=document.getElementById("demo");
+        if(x==1){
+            element.style.color="red";
+            x++;
+        }
+        else if(x==2){
+            element.style.color="green";
+            x++;
+        }
+        else if(x==3){
+            element.style.color="blue";
+            x++;
+        }
+        else{
+			element.style.color="white";
+			x=1;
+		}
+    }
+    setInterval("fun()",1000);
+
+   </script>
+	
+    
+</head>
+<body>
+
+<header>
+
+<div>
+    
+          <span id="brand-title" >SHOOPER</span>
+</div>
+<nav>
+    <form >
+        <select name="men">
+            <option >Men</option>
+            <option >Shirts</option>
+            <option >Blazers</option>
+            <option >Jeans</option>
+            <option >T-shirts</option>
+        </select>
+        
+        <select name="women">
+            <option>Women</option>
+            <option value="DEL">Jeans</option>
+            <option value="BOM">Tops</option>
+            <option value="BOM">Suit</option>
+            <option value="BOM">Shirts</option>
+        </select>
+        <select name="Kids">
+            <option>Kids</option>
+            <option value="DEL">Shirts</option>
+            <option value="BOM">pants</option>
+            <option value="BOM">shoes</option>
+            <option value="BOM">jacket</option>
+        </select>
+        <select name="More">
+            <option>More</option>
+            <option value="DEL">brands</option>
+            <option value="BOM">watch</option>
+            <option value="BOM">gifts</option>
+            <option value="BOM">rings</option>
+                    </select>
+        <select name="Help">
+            <option>Help</option>
+            <option value="DEL">Shirts</option>
+            <option value="BOM">Tops</option>
+        </select>
+    </form>
+    
+    
+</nav>
+<div class="shortcut-buttons">
+   
+    <span class="bi bi-search"></span>
+    <span class="bi bi-person" style="color: royalblue;"></span>
+    <span class="bi bi-heart" style="color: red;"></span>
+     <span class="bi bi-cart3" style="color: blue;"></span>
+</div>
+
+</header>
+
+<article >
+
+<span class="bi bi-lightning-fill"></span>
+<span id="demo" >HAPPY HOLIDAY DEALS ON EVERYTHING</span>
+<span class="bi bi-lightning-fill"></span>
+
+</article>
+<section>
+    <main>
+        <div class="women" >
+            <div>
+                <h1 class="title">Women</h1>
+                <button><a href="women.html" target>Shop Women <span class="bi bi-arrow-right"></span></a> </button>
+            </div>
+        </div>
+        <div class="men">
+            <div>
+                <h1 class="title">Men</h1>
+            
+                <button><a href=men.html target>Shop Men <span class="bi bi-arrow-right"></span></a></button>
+
+            </div>
+        </div>
+        <div class="kids">
+            <div>
+                <h1 class="title">Kids</h1>
+                <button><a href="kids.html" target>Shop Kids <span class="bi bi-arrow-right"></span></a></button>
+            </div>
+        </div>
+    </main>
+    <div class="features">
+        <div>
+            <div>
+                <span class="bi bi-truck"></span> FREE SHIPPING
+            </div>
+            <div class="feature-text">
+                From all orders over $100
+            </div>
+        </div>
+        <div>
+            <div>
+                <span class="bi bi-arrow-repeat"></span> FREE RETURNS
+            </div>
+            <div class="feature-text">
+                Return money within 30 days
+            </div>
+        </div>
+        <div>
+            <div>
+                <span class="bi bi-lock"></span> SECURE SHOPPING
+            </div>
+            <div class="feature-text">
+                You're in safe hands
+            </div>
+        </div>
+        <div>
+            <div>
+                <span class="bi bi-tag"></span> OVER 10,000 STYLES
+            </div>
+            <div class="feature-text">
+                We have everything you need
+            </div>
+        </div>
+    </div>
+    <div class="site-main">
+       <div>
+         <div class="site-main-subtitle">NEW COLLECTION</div>
+         <div class="site-main-title">Best Picks 2024</div>
+         <div class="site-main-text">
+            Appear, dry there darkness they're seas, dry waters thing fly midst. Beast, above fly brought Very green.
+         </div>
+       </div>
+    </div>
+</section>
+</section>
+<footer>
+    <div>
+    <div class="footer-brand-title">Shopper</div>
+    <div>
+    <span class="bi bi-facebook"></span>
+    <span class="bi bi-youtube"></span>
+    <span class="bi bi-twitter"></span>
+    <span class="bi bi-instagram"></span>
+    </div>
+    </div>
+    
+    <div>
+    <div class="footer-title">SUPPORT</div>
+    <span>Contact Us</span>
+    <span>FAQs</span>
+    <span>Size Guide</span>
+    <span>Shipping & Returns</span>
+    </div>
+    <div>
+    <div class="footer-title">SHOP</div>
+    <span>Men's Shopping</span>
+    <span>Women's Shopping</span>
+    <span>Kids' Shopping</span>
+    <span>Discounts</span>
+    </div>
+    <div>
+    <div class="footer-title">COMPANY</div>
+    <span>Our Story</span>
+    <span>Careers</span>
+    <span>Terms & Conditions</span>
+    <span>Privacy & Cookie policy</span>
+    </div>
+    <div>
+    <div class="footer-title">CONTACT</div>
+    <address>
+    <span>1-202-555-0105</span>
+    <span>1-202-555-0106</span>
+    <span>help@shopper.com</span>
+    </address>
+    </div>
+</footer>
+   
+    
+</body>
+</html>
